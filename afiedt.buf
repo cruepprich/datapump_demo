@@ -1,0 +1,7 @@
+declare
+ft integer;
+begin
+ft := dbms_datapump.ku$_file_type_sql_file;
+dbms_output.put_line(ft);
+end;
+/
